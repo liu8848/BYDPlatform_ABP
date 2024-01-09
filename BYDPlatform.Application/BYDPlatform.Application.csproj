@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Volo.Abp.AutoMapper" Version="8.0.1" />
+      <PackageReference Include="Volo.Abp.Ddd.Application" Version="8.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BYDPlatform.Application.Contracts\BYDPlatform.Application.Contracts.csproj" />
+      <ProjectReference Include="..\BYDPlatform.Domain\BYDPlatform.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
